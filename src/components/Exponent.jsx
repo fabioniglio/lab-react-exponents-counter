@@ -7,6 +7,7 @@ const Exponent = ({ count, exponent }) => {
         n<span className="superscript">{toSuperscript(exponent)}</span>
       </p>
       <p className="exponent-result">
+        {count} * {count} * {count} * {count} * {count} ={" "}
         <span className="total">{Math.pow(count, exponent)}</span>
       </p>
     </div>
